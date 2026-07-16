@@ -1,0 +1,7 @@
+packages: .
+
+-- type-level-sets on Hackage is not GHC 9.10-compatible.
+source-repository-package
+  type: git
+  location: https://github.com/dorchard/type-level-sets.git
+  tag: 546eea7502e63fdfdc505853eb72c45c0aa451b6
