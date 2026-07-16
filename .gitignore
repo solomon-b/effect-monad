@@ -1,6 +1,11 @@
 
 dist/
+dist-newstyle/
+
+# Ignore direnv cache
+.direnv/
 
 # Ignore cabal sandboxes
 .cabal-sandbox
 cabal.sandbox.config
+/.envrc.local
