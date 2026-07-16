@@ -15,10 +15,13 @@ resolver: lts-24.50
 # Local packages, usually specified by relative directory name
 packages:
 - '.'
-- '../type-level-sets'
 
 # Packages to be pulled from upstream that are not in the resolver (e.g., acme-missiles-0.3)
+# type-level-sets on Hackage is not GHC 9.10-compatible, so pull it from git
+# (same commit as cabal.project).
 extra-deps:
+- git: https://github.com/dorchard/type-level-sets.git
+  commit: 546eea7502e63fdfdc505853eb72c45c0aa451b6
 
 # Override default flag values for local packages and extra-deps
 flags: {}
