@@ -2,6 +2,10 @@
 dist/
 dist-newstyle/
 
+# Ignore nix build output
+result
+result-*
+
 # Ignore direnv cache
 .direnv/
 

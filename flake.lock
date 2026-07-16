@@ -37,7 +37,8 @@
     "root": {
       "inputs": {
         "flake-utils": "flake-utils",
-        "nixpkgs": "nixpkgs"
+        "nixpkgs": "nixpkgs",
+        "type-level-sets": "type-level-sets"
       }
     },
     "systems": {
@@ -52,6 +53,23 @@
       "original": {
         "owner": "nix-systems",
         "repo": "default",
+        "type": "github"
+      }
+    },
+    "type-level-sets": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1690448234,
+        "narHash": "sha256-5n2XHd5OUkP7iPuCI+J5yKJPmDX77oE6n3VFQ0cB2EU=",
+        "owner": "dorchard",
+        "repo": "type-level-sets",
+        "rev": "546eea7502e63fdfdc505853eb72c45c0aa451b6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "dorchard",
+        "repo": "type-level-sets",
+        "rev": "546eea7502e63fdfdc505853eb72c45c0aa451b6",
         "type": "github"
       }
     }
